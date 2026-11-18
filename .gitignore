@@ -1,0 +1,16 @@
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+
+# Secretos: nunca se suben (§4.5.6). Cada carpeta tiene además su propio .gitignore.
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+key.properties
+
+# Fotografías de evidencias reales (Anexo B)
+backend/uploads/
